@@ -1,0 +1,14 @@
+# Use a basic Python image from Docker Hub
+FROM python:3.8-slim
+
+# Set the working directory inside the container
+WORKDIR /app
+
+# Copy the local code to the container
+COPY . /app
+
+# Install any dependencies (empty for now)
+RUN pip install --no-cache-dir --upgrade pip
+
+# Run a simple Python script
+CMD ["python", "-c", "print('Hello from Docker!')"]
