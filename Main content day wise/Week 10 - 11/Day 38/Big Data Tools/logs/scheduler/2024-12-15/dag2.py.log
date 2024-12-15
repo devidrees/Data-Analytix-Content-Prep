@@ -782,3 +782,17 @@
 [2024-12-15T13:17:51.864+0000] {logging_mixin.py:190} INFO - [2024-12-15T13:17:51.864+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-15T13:17:51.885+0000] {logging_mixin.py:190} INFO - [2024-12-15T13:17:51.885+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_and_store_google_books to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
 [2024-12-15T13:17:51.901+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.163 seconds
+[2024-12-15T13:18:22.067+0000] {processor.py:186} INFO - Started process (PID=24287) to work on /opt/airflow/dags/dag2.py
+[2024-12-15T13:18:22.072+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2024-12-15T13:18:22.076+0000] {logging_mixin.py:190} INFO - [2024-12-15T13:18:22.076+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2024-12-15T13:18:22.189+0000] {processor.py:925} INFO - DAG(s) 'fetch_and_store_google_books' retrieved from /opt/airflow/dags/dag2.py
+[2024-12-15T13:18:22.210+0000] {logging_mixin.py:190} INFO - [2024-12-15T13:18:22.209+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T13:18:22.233+0000] {logging_mixin.py:190} INFO - [2024-12-15T13:18:22.233+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_and_store_google_books to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-15T13:18:22.251+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.192 seconds
+[2024-12-15T13:18:52.331+0000] {processor.py:186} INFO - Started process (PID=24358) to work on /opt/airflow/dags/dag2.py
+[2024-12-15T13:18:52.332+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag2.py for tasks to queue
+[2024-12-15T13:18:52.335+0000] {logging_mixin.py:190} INFO - [2024-12-15T13:18:52.334+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag2.py
+[2024-12-15T13:18:52.437+0000] {processor.py:925} INFO - DAG(s) 'fetch_and_store_google_books' retrieved from /opt/airflow/dags/dag2.py
+[2024-12-15T13:18:52.458+0000] {logging_mixin.py:190} INFO - [2024-12-15T13:18:52.457+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T13:18:52.479+0000] {logging_mixin.py:190} INFO - [2024-12-15T13:18:52.479+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_and_store_google_books to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-15T13:18:52.498+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag2.py took 0.172 seconds
